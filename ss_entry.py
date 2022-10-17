@@ -19,7 +19,7 @@ marsParams[1] = marsParams[0] * marsParams[3]
 mercuryParams[1] = - mercuryParams[0] * mercuryParams[3] * np.cos(np.radians(77.4))
 mercuryParams[2] = mercuryParams[0] * mercuryParams[3] * np.sin(np.radians(77.4))
 
-
+#hola 2
 #Edicio 1
 #klk
 t = np.linspace(0, 2*pi, 100)
