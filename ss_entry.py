@@ -24,6 +24,7 @@ mercuryParams[2] = mercuryParams[0] * mercuryParams[3] * np.sin(np.radians(77.4)
 t = np.linspace(0, 2*pi, 100)
 f = np.linspace(-1.5, 1.5, 100)
 
+#test
 fig, ax = plt.subplots()
 
 plt.plot(mercuryParams[1] + mercuryParams[3]*np.cos(t - np.radians(257.4)), mercuryParams[2] + mercuryParams[4]*np.sin(t - np.radians(257.4)), "--", color='gray') #MERCURY orbit
