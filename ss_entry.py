@@ -20,6 +20,7 @@ mercuryParams[1] = - mercuryParams[0] * mercuryParams[3] * np.cos(np.radians(77.
 mercuryParams[2] = mercuryParams[0] * mercuryParams[3] * np.sin(np.radians(77.4))
 
 
+#Edicio 1
 t = np.linspace(0, 2*pi, 100)
 f = np.linspace(-1.5, 1.5, 100)
 
